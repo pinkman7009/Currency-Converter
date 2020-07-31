@@ -33,7 +33,7 @@ function App() {
 			const firstCurrency = Object.keys(data.rates)[0];
 			setFromCurrency(data.base);
 			setToCurrency(firstCurrency);
-			setCurrencyOptions(arr);
+			setCurrencyOptions(arr.sort());
 			setExchangeRate(data.rates[firstCurrency]);
 		};
 
