@@ -1,14 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-const CurrencyGroup = ({ currencyOptions, selectedCurrency, onChangeCurrency }) => {
-	// const [ query, setText ] = useState('');
-	// const handleChange = (query) => {
-	// 	setText(query);
-	// 	getQuery(query);
-	// };
+const CurrencyGroup = ({ currencyOptions, selectedCurrency, onChangeCurrency, onChangeAmount, value }) => {
 	return (
 		<div>
-			<input className="input" type="number" />
+			<input className="input" type="number" onChange={onChangeAmount} value={value} />
 			<select value={selectedCurrency} className="select" onChange={onChangeCurrency}>
 				{currencyOptions.map((option) => {
 					return (
