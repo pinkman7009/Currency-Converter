@@ -30,13 +30,13 @@ body {
 }
 
 .lead {
-	margin: 1rem 0;
+	margin: 2rem 0;
 }
 
 .input {
 	padding: 0.6rem;
 	border: #333 solid 2px;
-	margin: 0 1rem;
+	margin-right: 1rem;
 	border-radius: 5px;
 }
 
