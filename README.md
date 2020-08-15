@@ -11,3 +11,13 @@ This is a currency converter application which converts an amount in one currenc
 
 # Built with
 1. React Hooks
+
+# Live Demo at 
+https://currencyconverterpinkman.netlify.app/
+
+# To Run 
+
+1. Clone into repo
+2. Run ``` npm i ```
+3. Run ``` npm start ```
+4. Visit ``` localhost:3000 ```
