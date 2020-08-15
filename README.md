@@ -4,7 +4,7 @@ This is a currency converter application which converts an amount in one currenc
 # Features
 
 1. Allows the user to convert one currency to another. 
-2. Makes an API call with the useEffect hook.
+2. Makes an API call with the useEffect hook. API Link :  https://exchangeratesapi.io/
 
 # Screenshot 
 <img src="screenshot/currency.png">
